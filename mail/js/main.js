@@ -5,6 +5,8 @@ let email = prompt("Inserisci la tua  email");
 
 console.log( email);
 
+let presente = false;
+
 
 const myList = ["furkan01@gmail.com", "alessandro98@gmail.com", "luca92@gmail.com"];
 
@@ -15,6 +17,8 @@ for (let index = 0; index <  myList.length; index++) {
         
     }
     
+}  if (presente === false) {
+    console.log("non sei nella lista ");
 }
 
 
